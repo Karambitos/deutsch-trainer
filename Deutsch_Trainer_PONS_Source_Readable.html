@@ -1,0 +1,334 @@
+<!doctype html><html lang="uk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#101b2c"><title>Deutsch Trainer · Offline</title><style>
+:root {
+    color-scheme:dark;
+    --bg:#0d1523;
+    --card:#172338;
+    --line:#30415b;
+    --text:#f0f5fc;
+    --muted:#aebcd0;
+    --accent:#70baff;
+    --good:#63d8a0;
+    --bad:#ff9292
+}
+* {
+    box-sizing:border-box
+}
+body {
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    padding:env(safe-area-inset-top) 16px calc(28px + env(safe-area-inset-bottom))
+}
+.wrap {
+    max-width:620px;
+    margin:auto
+}
+header {
+    padding:24px 0 14px
+}
+h1 {
+    font-size:27px;
+    margin:0
+}
+h2 {
+    font-size:21px;
+    margin:0 0 10px
+}
+p {
+    margin:8px 0
+}
+.muted,small {
+    color:var(--muted)
+}
+.pill {
+    display:inline-block;
+    background:#203d57;
+    color:#bce2ff;
+    border-radius:30px;
+    padding:4px 10px;
+    font-size:12px
+}
+.card {
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:18px;
+    padding:17px;
+    margin:12px 0
+}
+.levels {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:10px
+}
+.level {
+    padding:15px;
+    text-align:left;
+    min-height:118px
+}
+.level b {
+    display:block;
+    margin-bottom:5px
+}
+.level small {
+    display:block
+}
+.btn,button,select,input,textarea {
+    font:inherit
+}
+button {
+    cursor:pointer;
+    border:1px solid var(--line);
+    border-radius:13px;
+    background:#22334d;
+    color:var(--text);
+    padding:12px 14px;
+    min-height:48px
+}
+button:active {
+    transform:scale(.99)
+}
+button:disabled {
+    opacity:.55
+}
+.primary {
+    background:#2385d3;
+    border-color:#2385d3;
+    color:white;
+    font-weight:700
+}
+.full {
+    width:100%
+}
+.row {
+    display:flex;
+    gap:9px;
+    align-items:center;
+    flex-wrap:wrap
+}
+.row>* {
+    flex:1
+}
+.choice {
+    display:block;
+    text-align:left;
+    width:100%;
+    margin:8px 0
+}
+.choice.correct {
+    border-color:var(--good);
+    background:#174534
+}
+.choice.wrong {
+    border-color:var(--bad);
+    background:#562c38
+}
+.input,select,textarea {
+    width:100%;
+    background:#0d192b;
+    color:white;
+    border:1px solid #516480;
+    border-radius:12px;
+    padding:13px;
+    min-height:49px
+}
+.input:focus,textarea:focus {
+    outline:2px solid var(--accent)
+}
+.question {
+    font-size:22px;
+    font-weight:650;
+    line-height:1.4;
+    margin:18px 0
+}
+.feedback {
+    padding:13px;
+    border-radius:12px;
+    margin:12px 0;
+    background:#203147
+}
+.ok {
+    border-left:4px solid var(--good)
+}
+.no {
+    border-left:4px solid var(--bad)
+}
+.bar {
+    height:8px;
+    background:#30415b;
+    border-radius:8px;
+    overflow:hidden
+}
+.bar>div {
+    height:100%;
+    background:#65b7f5;
+    transition:width .2s
+}
+.hide {
+    display:none!important
+}
+.stats {
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:8px
+}
+.stat {
+    text-align:center;
+    background:#202f47;
+    padding:10px 5px;
+    border-radius:12px
+}
+.stat strong {
+    display:block;
+    font-size:22px
+}
+.tiny {
+    font-size:13px
+}
+.foot {
+    font-size:12px;
+    color:var(--muted);
+    margin:18px 0
+}
+label {
+    display:block;
+    margin:8px 0 4px
+}
+.section {
+    margin-top:18px
+}
+.warn {
+    color:#ffca91
+}
+.tag {
+    font-size:12px;
+    background:#253852;
+    padding:4px 8px;
+    border-radius:8px
+}
+.options {
+    display:grid;
+    gap:8px
+}
+.wordrow {
+    border-bottom:1px solid var(--line);
+    padding:9px 0
+}
+.wordrow:last-child {
+    border:0
+}
+@media(max-width:370px) {
+    .levels {
+        grid-template-columns:1fr
+    }
+    h1 {
+        font-size:24px
+    }
+    
+}
+</style></head>
+<body><main class="wrap"><header><div class="row"><div><h1>🇩🇪 Deutsch Trainer</h1><small>Verben mit Präpositionen · PONS</small></div><div style="flex:0"><span class="pill">● OFFLINE</span></div></div></header>
+<section id="home"><div class="card"><div class="stats"><div class="stat"><strong id="nwords">29</strong><small>конструкцій</small></div><div class="stat"><strong id="nright">0</strong><small>правильних</small></div><div class="stat"><strong id="nerrors">0</strong><small>у повторенні</small></div></div><label for="count">Питань за тренування</label><select id="count"><option value="5">5</option><option value="10" selected>10</option><option value="20">20</option><option value="all">Усі доступні</option></select></div><h2>Обери рівень</h2><div class="levels" id="levels"></div><div class="card"><h2>🔁 Мої помилки</h2><p class="muted tiny">Неправильні відповіді накопичуються локально. Складні конструкції повторюються частіше.</p><button class="primary full" id="mistakes">Повторити помилки</button></div><div class="row"><button id="words">📚 Список конструкцій</button><button id="reset">Скинути статистику</button></div><p class="foot">Працює без мережі. Прогрес зберігається в пам’яті браузера, якщо iOS дозволяє localStorage для цього файлу. Не використовуйте приватний режим для довгострокового зберігання.</p></section>
+<section id="game" class="hide"><div class="row"><button id="back" style="flex:0">← Назад</button><div style="text-align:right"><span id="progressLabel" class="tiny muted"></span></div></div><div class="bar"><div id="progressBar" style="width:0"></div></div><div class="card"><div class="row"><span class="pill" id="levelLabel"></span><span class="tiny muted" id="caseLabel" style="text-align:right"></span></div><div id="prompt" class="question"></div><div id="answers"></div><div id="feedback" class="hide"></div><button class="primary full hide" id="next">Далі →</button></div></section>
+<section id="results" class="hide"><div class="card"><h2>Результат 🎯</h2><p id="resultText"></p><div class="stats"><div class="stat"><strong id="score"></strong><small>правильно</small></div><div class="stat"><strong id="percent"></strong><small>точність</small></div><div class="stat"><strong id="errorsNow"></strong><small>помилки</small></div></div><p class="muted tiny">У завданнях із самостійним перекладом ти оцінюєш свою відповідь після перегляду зразка.</p><button class="primary full section" id="again">Ще раз</button><button class="full section" id="homeBtn">На головну</button></div></section>
+<section id="dictionary" class="hide"><button id="dictBack">← Назад</button><h2 class="section">Позначені конструкції</h2><div id="dictList" class="card"></div></section>
+</main><script>
+const WORDS=[["bitten", "um", "A", "просити про", "Ich bitte meinen Kollegen um Hilfe.", "Ich bitte meinen Kollegen ___ Hilfe.", "um"],
+    ["danken", "für", "A", "дякувати за", "Ich danke dir für deine Hilfe.", "Ich danke dir ___ deine Hilfe.", "für"],
+    ["denken", "an", "A", "думати про", "Ich denke an meinen Termin.", "Ich denke ___ meinen Termin.", "an"],
+    ["diskutieren", "über", "A", "обговорювати", "Wir diskutieren über den neuen Plan.", "Wir diskutieren ___ den neuen Plan.", "über"],
+    ["einladen", "zu", "D", "запрошувати на", "Ich lade dich zu meinem Geburtstag ein.", "Ich lade dich ___ meinem Geburtstag ein.", "zu"],
+    ["sich entschuldigen", "bei", "D", "вибачатися перед кимось", "Ich entschuldige mich bei meiner Kollegin.", "Ich entschuldige mich ___ meiner Kollegin.", "bei"],
+    ["sich entschuldigen", "für", "A", "вибачатися за щось", "Ich entschuldige mich für die Verspätung.", "Ich entschuldige mich ___ die Verspätung.", "für"],
+    ["sich konzentrieren", "auf", "A", "зосереджуватися на", "Ich konzentriere mich auf meine Arbeit.", "Ich konzentriere mich ___ meine Arbeit.", "auf"],
+    ["sich kümmern", "um", "A", "піклуватися про; займатися чимось", "Ich kümmere mich um die Bestellung.", "Ich kümmere mich ___ die Bestellung.", "um"],
+    ["schicken", "an", "A", "надсилати комусь / на адресу", "Ich schicke die Unterlagen an meinen Vermieter.", "Ich schicke die Unterlagen ___ meinen Vermieter.", "an"],
+    ["schreiben", "an", "A", "писати комусь", "Ich schreibe an meinen Vermieter.", "Ich schreibe ___ meinen Vermieter.", "an"],
+    ["sprechen", "mit", "D", "розмовляти з кимось", "Ich spreche mit meinem Chef.", "Ich spreche ___ meinem Chef.", "mit"],
+    ["sprechen", "über", "A", "говорити про щось", "Wir sprechen über das Projekt.", "Wir sprechen ___ das Projekt.", "über"],
+    ["teilnehmen", "an", "D", "брати участь у", "Ich nehme an einem Meeting teil.", "Ich nehme ___ einem Meeting teil.", "an"],
+    ["telefonieren", "mit", "D", "розмовляти телефоном із", "Ich telefoniere mit meiner Kollegin.", "Ich telefoniere ___ meiner Kollegin.", "mit"],
+    ["sich treffen", "mit", "D", "зустрічатися з", "Ich treffe mich mit meinem Freund.", "Ich treffe mich ___ meinem Freund.", "mit"],
+    ["sich erinnern", "an", "A", "пам’ятати; згадувати", "Ich erinnere mich an meinen ersten Arbeitstag.", "Ich erinnere mich ___ meinen ersten Arbeitstag.", "an"],
+    ["erzählen", "von", "D", "розповідати про", "Ich erzähle von meinem Urlaub.", "Ich erzähle ___ meinem Urlaub.", "von"],
+    ["fragen", "nach", "D", "запитувати про", "Ich frage nach dem Preis.", "Ich frage ___ dem Preis.", "nach"],
+    ["sich freuen", "auf", "A", "радіти майбутній події", "Ich freue mich auf das Wochenende.", "Ich freue mich ___ das Wochenende.", "auf"],
+    ["sich freuen", "über", "A", "радіти чомусь", "Ich freue mich über das Geschenk.", "Ich freue mich ___ das Geschenk.", "über"],
+    ["sich gewöhnen", "an", "A", "звикати до", "Ich gewöhne mich an den neuen Job.", "Ich gewöhne mich ___ den neuen Job.", "an"],
+    ["gratulieren", "zu", "D", "вітати з", "Ich gratuliere dir zu deinem Geburtstag.", "Ich gratuliere dir ___ deinem Geburtstag.", "zu"],
+    ["helfen", "bei", "D", "допомагати з", "Kannst du mir bei der Aufgabe helfen?", "Kannst du mir ___ der Aufgabe helfen?", "bei"],
+    ["hören", "von", "D", "чути про / від", "Ich habe von meinem Nachbarn gehört.", "Ich habe ___ meinem Nachbarn gehört.", "von"],
+    ["sich informieren", "über", "A", "дізнаватися інформацію про", "Ich informiere mich über die Versicherung.", "Ich informiere mich ___ die Versicherung.", "über"],
+    ["sich interessieren", "für", "A", "цікавитися", "Ich interessiere mich für IT.", "Ich interessiere mich ___ IT.", "für"],
+    ["sich beschäftigen", "mit", "D", "займатися чимось", "Ich beschäftige mich mit dem neuen System.", "Ich beschäftige mich ___ dem neuen System.", "mit"],
+    ["sich vorbereiten", "auf", "A", "готуватися до", "Ich bereite mich auf das Gespräch vor.", "Ich bereite mich ___ das Gespräch vor.", "auf"]];
+const CASES=[["Ich spreche mit ___ neuen Kollegen.", "dem", "dem neuen Kollegen"],
+    ["Ich denke an ___ nächsten Termin.", "den", "den nächsten Termin"],
+    ["Ich kümmere mich um ___ Bestellung.", "die", "die Bestellung"],
+    ["Ich nehme an ___ wichtigen Meeting teil.", "einem", "einem wichtigen Meeting"],
+    ["Ich freue mich auf ___ Urlaub.", "den", "den Urlaub"],
+    ["Ich gratuliere dir zu ___ neuen Stelle.", "deiner", "deiner neuen Stelle"],
+    ["Ich frage nach ___ Preis.", "dem", "dem Preis"],
+    ["Ich bereite mich auf ___ Gespräch vor.", "das", "das Gespräch"],
+    ["Ich telefoniere mit ___ Kollegin.", "meiner", "meiner Kollegin"],
+    ["Ich informiere mich über ___ Versicherung.", "die", "die Versicherung"],
+    ["Ich entschuldige mich bei ___ Nachbarn.", "meinem", "meinem Nachbarn"],
+    ["Ich schicke die Nachricht an ___ Vermieter.", "meinen", "meinen Vermieter"]];
+const TRANSLATIONS=[["Я розмовляю зі своїм начальником.", "Ich spreche mit meinem Chef."],
+    ["Я готуюся до співбесіди.", "Ich bereite mich auf das Vorstellungsgespräch vor."],
+    ["Я цікавлюся IT.", "Ich interessiere mich für IT."],
+    ["Я піклуюся про замовлення.", "Ich kümmere mich um die Bestellung."],
+    ["Я думаю про наступну зустріч.", "Ich denke an das nächste Treffen."],
+    ["Я телефоную своїй колезі.", "Ich telefoniere mit meiner Kollegin."],
+    ["Я запитую про ціну.", "Ich frage nach dem Preis."],
+    ["Я радію вихідним.", "Ich freue mich auf das Wochenende."],
+    ["Я дякую тобі за допомогу.", "Ich danke dir für deine Hilfe."],
+    ["Я зустрічаюся зі своїм другом.", "Ich treffe mich mit meinem Freund."],
+    ["Я розповідаю про свою відпустку.", "Ich erzähle von meinem Urlaub."],
+    ["Я звикаю до нової роботи.", "Ich gewöhne mich an den neuen Job."]];
+ const LEVELS=[['Значення','Вибери переклад дієслова'],['Прийменники','Знайди правильний прийменник'],['Akkusativ / Dativ','Вибери артикль у реченні'],['Напиши прийменник','Без варіантів відповіді'],['Реальні речення','Переклади речення сам'],['Автоматизм','Змішані завдання']];
+ const KEY='deutsch_trainer_pons_v1';
+let memory= {
+    correct:0,wrong:0,misses: {
+        
+    }
+};
+let storageWorks=true;
+try {
+    const saved=localStorage.getItem(KEY);
+    if(saved) {
+        const obj=JSON.parse(saved);
+        if(obj&&typeof obj==='object')memory= {
+            ...memory,...obj,misses:obj.misses|| {
+                
+            }
+        }
+    }
+}catch(e) {
+    storageWorks=false
+}function save() {
+    try {
+        localStorage.setItem(KEY,JSON.stringify(memory))
+    }catch(e) {
+        storageWorks=false
+    }
+} const $=id=>document.getElementById(id);
+function esc(s) {
+    return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot; ',"'":'&#39;'}[c]))}function show(id){['home','game','results','dictionary'].forEach(x=>$(x).classList.toggle('hide',x!==id));scrollTo(0,0)}function shuffle(a){let b=a.slice();for(let i=b.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]]}return b}function uniq(a){return [...new Set(a)]}function normalize(s){return s.trim().toLocaleLowerCase('de-DE').replace(/[.!?]+$/,'').replace(/\s+/g,' ')}function updateHome(){$('nwords').textContent=WORDS.length;$('nright').textContent=memory.correct;$('nerrors').textContent=Object.keys(memory.misses).filter(k=>memory.misses[k]>0).length;$('mistakes').disabled=!Object.values(memory.misses).some(n=>n>0)}
+let state=null;function poolFor(level){if(level===3)return CASES.map((x,i)=>({kind:'case',i,key:'case:'+i}));if(level===5)return TRANSLATIONS.map((x,i)=>({kind:'translation',i,key:'translation:'+i}));return WORDS.map((x,i)=>({kind:'word',i,key:'word:'+i}))}function makeQuestion(level,ref){if(level===5){const choices=[0,1,2,3,4].map(n=>n);let type=shuffle(choices)[0];if(type===2)return makeQuestion(2,{kind:'case',i:Math.floor(Math.random()*CASES.length),key:ref.key});if(type===4)return makeQuestion(4,{kind:'translation',i:Math.floor(Math.random()*TRANSLATIONS.length),key:ref.key});return makeQuestion(type,{kind:'word',i:ref.i%WORDS.length,key:ref.key})}
+if(level===2){let c=CASES[ref.i];return {type:'choice',key:ref.key,level:2,prompt:c[0],answer:c[1],choices:shuffle(uniq([c[1],...shuffle(['dem','den','der','die','das','einem','einen','meinem','meinen','meiner','deiner']).filter(x=>x!==c[1]).slice(0,3)])),note:'Правильно: '+c[2]}}
+if(level===4){let t=TRANSLATIONS[ref.i];return {type:'self',key:ref.key,level:4,prompt:t[0],answer:t[1],note:'Порівняй своє речення зі зразком. Інші граматично правильні формулювання теж можливі.'}}
+let w=WORDS[ref.i],name=w[0]+' '+w[1];if(level===0){let other=shuffle(WORDS.filter((x,i)=>i!==ref.i&&x[3]!==w[3])).slice(0,3).map(x=>x[3]);return {type:'choice',key:ref.key,level:0,prompt:name,answer:w[3],choices:shuffle([w[3],...other]),note:w[4]}}
+if(level===1){let opts=shuffle(uniq([w[1],...shuffle(['an','auf','für','über','mit','um','bei','von','nach','zu','gegen']).filter(x=>x!==w[1]).slice(0,3)]));return {type:'choice',key:ref.key,level:1,prompt:w[5],answer:w[1],choices:opts,note:name+' + '+(w[2]==='A'?'Akkusativ':'Dativ')+' · '+w[3]}}
+return {type:'text',key:ref.key,level:3,prompt:w[5],answer:w[1],note:name+' + '+(w[2]==='A'?'Akkusativ':'Dativ')+' · '+w[4]}}
+function chooseRefs(level,mistakes){let pool=level===5?WORDS.map((w,i)=>({kind:'word',i,key:'word:'+i})):poolFor(level);if(mistakes){const ks=Object.keys(memory.misses).filter(k=>memory.misses[k]>0);pool=pool.filter(x=>ks.includes(x.key));if(!pool.length){pool=WORDS.map((w,i)=>({kind:'word',i,key:'word:'+i})).filter(x=>ks.includes(x.key))}if(!pool.length)return []}let count=$('count').value==='all'?pool.length:Number($('count').value);let weighted=pool.map(x=>({...x,weight:1+Math.min(5,memory.misses[x.key]||0)}));let chosen=[];while(weighted.length&&chosen.length<count){let sum=weighted.reduce((a,x)=>a+x.weight,0),r=Math.random()*sum,idx=weighted.findIndex(x=>(r-=x.weight)<=0);if(idx<0)idx=0;chosen.push(weighted.splice(idx,1)[0])}return chosen}
+function start(level,mistakes=false){let refs=chooseRefs(level,mistakes);if(!refs.length){alert('Поки немає помилок для повторення.');return}let qs=refs.map(r=>makeQuestion(level,r));state={level,qs,index:0,right:0,wrong:0,answered:false,mistakes};render();show('game')}
+function render(){const q=state.qs[state.index];state.answered=false;$('progressLabel').textContent=(state.index+1)+' / '+state.qs.length;$('progressBar').style.width=(100*state.index/state.qs.length)+'%';$('levelLabel').textContent=state.mistakes?'🔁 Мої помилки':(q.level===5?'Рівень 6':'Рівень '+(q.level+1));$('caseLabel').textContent=q.level===2?'Артиклі':q.level===4?'Самоперевірка':'';$('prompt').textContent=q.prompt;$('feedback').className='hide';$('feedback').innerHTML='';$('next').classList.add('hide');let a=$('answers');a.innerHTML='';if(q.type==='choice'){q.choices.forEach(opt=>{let b=document.createElement('button');b.className='choice';b.textContent=opt;b.onclick=()=>answer(opt,b);a.appendChild(b)})}else{let input=document.createElement('textarea');input.className='input';input.rows=q.type==='self'?3:1;input.placeholder=q.type==='self'?'Напиши повне речення німецькою…':'Введи прийменник…';input.autocapitalize='off';input.autocomplete='off';input.spellcheck=false;a.appendChild(input);let b=document.createElement('button');b.className='primary full section';b.textContent=q.type==='self'?'Показати зразок':'Перевірити';b.onclick=()=>answer(input.value,b);a.appendChild(b)}}
+function record(q,ok){if(ok){memory.correct++;if(memory.misses[q.key])memory.misses[q.key]=Math.max(0,memory.misses[q.key]-1);state.right++}else{memory.wrong++;memory.misses[q.key]=(memory.misses[q.key]||0)+1;state.wrong++}save()}
+function feedback(q,ok,detail){let f=$('feedback');f.className='feedback '+(ok?'ok':'no');f.innerHTML='<strong>'+(ok?'✓ Правильно':'✕ Потрібно повторити')+'</strong><div>'+esc(detail)+'</div><small>'+esc(q.note||'')+'</small>';$('next').classList.remove('hide')}
+function answer(value,btn){if(state.answered)return;const q=state.qs[state.index];if(q.type==='self'){if(!value.trim()){alert('Спочатку напиши свій варіант.');return}state.answered=true;const a=$('answers');a.innerHTML='<p class="muted tiny">Твій варіант:</p><div class="card">'+esc(value)+'</div><p class="muted tiny">Зразок:</p><div class="card">'+esc(q.answer)+'</div><p>Чи твій варіант граматично правильний і передає той самий зміст?</p>';let row=document.createElement('div');row.className='row';[['✓ Так',true],['✕ Ні',false]].forEach(([t,ok])=>{let b=document.createElement('button');b.textContent=t;b.onclick=()=>{if(row.dataset.done)return;row.dataset.done='1';record(q,ok);feedback(q,ok,q.answer);[...row.children].forEach(x=>x.disabled=true)};row.appendChild(b)});a.appendChild(row);return}
+if(!String(value).trim())return;state.answered=true;const ok=normalize(value)===normalize(q.answer);record(q,ok);if(q.type==='choice'){[...$('answers').children].forEach(b=>{b.disabled=true;if(b.textContent===q.answer)b.classList.add('correct');else if(b===btn)b.classList.add('wrong')})}else{$('answers').querySelector('textarea').disabled=true;btn.disabled=true}feedback(q,ok,'Правильна відповідь: '+q.answer)}
+$('next').onclick=()=>{state.index++;if(state.index>=state.qs.length){$('score').textContent=state.right+'/'+state.qs.length;$('percent').textContent=Math.round(state.right/state.qs.length*100)+'%';$('errorsNow').textContent=state.wrong;$('resultText').textContent=state.right===state.qs.length?'Чудово! Усі відповіді правильні.':'Помилки додано до повторення. Повернися до них пізніше.';show('results');updateHome()}else render()};$('back').onclick=()=>{show('home');updateHome()};$('homeBtn').onclick=()=>{updateHome();show('home')};$('again').onclick=()=>start(state.level,state.mistakes);$('mistakes').onclick=()=>{const missed=Object.keys(memory.misses).filter(k=>memory.misses[k]>0);if(!missed.length)return;const refs=shuffle(WORDS.map((w,i)=>({kind:'word',i,key:'word:'+i})).filter(x=>missed.includes(x.key)));const extra=missed.filter(k=>k.startsWith('case:')).map(k=>({kind:'case',i:Number(k.slice(5)),key:k}));const trans=missed.filter(k=>k.startsWith('translation:')).map(k=>({kind:'translation',i:Number(k.slice(12)),key:k}));const pool=shuffle([...refs,...extra,...trans]);const count=$('count').value==='all'?pool.length:Number($('count').value);const qs=pool.slice(0,count).map(r=>r.kind==='case'?makeQuestion(2,r):r.kind==='translation'?makeQuestion(4,r):makeQuestion(shuffle([0,1,3])[0],r));state={level:5,qs,index:0,right:0,wrong:0,answered:false,mistakes:true};render();show('game')};$('reset').onclick=()=>{if(confirm('Скинути всю статистику та список помилок?')){memory={correct:0,wrong:0,misses:{}};save();updateHome()}};$('words').onclick=()=>{let list=$('dictList');list.innerHTML=WORDS.map(w=>'<div class="wordrow"><b>'+esc(w[0]+' '+w[1])+'</b> <span class="tag">'+(w[2]==='A'?'Akkusativ':'Dativ')+'</span><div>'+esc(w[3])+'</div><small>'+esc(w[4])+'</small></div>').join('');show('dictionary')};$('dictBack').onclick=()=>show('home');LEVELS.forEach((l,i)=>{let b=document.createElement('button');b.className='level';b.innerHTML='<b>'+(i+1)+'. '+esc(l[0])+'</b><small>'+esc(l[1])+'</small>';b.onclick=()=>start(i);$('levels').appendChild(b)});updateHome();if(!storageWorks){let p=document.createElement('p');p.className='warn tiny';p.textContent='У цьому переглядачі локальне збереження недоступне. Тест працює, але прогрес може зникнути після закриття.';$('home').prepend(p)}
+</script>
+</body>
+</html>

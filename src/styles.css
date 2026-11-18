@@ -1,0 +1,11 @@
+:root { color-scheme: dark; }
+body {
+  background: radial-gradient(ellipse at 65% -10%, #204137 0, transparent 34rem), #101419;
+}
+.shell {
+  max-width: 740px;
+  margin-inline: auto;
+  padding: max(16px, env(safe-area-inset-top)) max(18px, env(safe-area-inset-right))
+    max(28px, env(safe-area-inset-bottom)) max(18px, env(safe-area-inset-left));
+}
+a, button, input, textarea { -webkit-tap-highlight-color: transparent; }

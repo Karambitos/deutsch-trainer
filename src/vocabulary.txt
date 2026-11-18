@@ -1,0 +1,123 @@
+#1
+abhängen|von|D|залежати від|Es hängt ~ deinem Tarif ab.|Це залежить від твого тарифу.
+achten|auf|A|звертати увагу на|Achte ~ den Liefertermin.|Зверни увагу на дату доставки.
+anfangen|mit|D|братися за щось|Ich fange ~ dem Bericht an.|Я беруся за звіт.
+ankommen|auf|A|бути вирішальним чинником|Es kommt ~ den genauen Wortlaut an.|Вирішальне значення має точне формулювання.
+antworten|auf|A|відповідати на|Sie antwortet ~ meine Nachricht.|Вона відповідає на моє повідомлення.
+*sich ärgern|über|A|дратуватися через|Ich ärgere mich ~ den Fehler.|Я дратуюся через помилку.
+aufhören|mit|D|припиняти щось робити|Hör bitte ~ dem Hupen auf.|Припини, будь ласка, сигналити.
+aufpassen|auf|A|наглядати за|Ich passe ~ deinen Hund auf.|Я наглядаю за твоїм собакою.
+sich aufregen|über|A|обурюватися через|Ich rege mich ~ den Preis auf.|Я обурююся через ціну.
+ausgeben|für|A|витрачати гроші на|Ich gebe zu viel Geld ~ mein Auto aus.|Я витрачаю забагато грошей на свою машину.
+sich bedanken|bei|D|висловлювати подяку комусь|Ich bedanke mich ~ meinem Nachbarn.|Я дякую своєму сусідові.
+sich bedanken|für|A|висловлювати подяку за щось|Ich bedanke mich ~ deine Unterstützung.|Я дякую за твою підтримку.
+beginnen|mit|D|розпочинати з|Wir beginnen ~ dem wichtigsten Punkt.|Ми розпочинаємо з найважливішого пункту.
+sich bemühen|um|A|докладати зусиль, щоб отримати|Ich bemühe mich ~ einen früheren Termin.|Я намагаюся отримати раніший запис.
+berichten|über|A|звітувати про|Sie berichtet ~ den letzten Einsatz.|Вона звітує про останній виїзд.
+sich beschäftigen|mit|D|займатися певною темою|Ich beschäftige mich ~ dem neuen Ticketsystem.|Я займаюся новою системою заявок.
+sich beschweren|bei|D|звертатися зі скаргою до|Ich beschwere mich ~ der Hausverwaltung.|Я скаржуся керуючій компанії.
+bestehen|aus|D|складатися з|Das Set besteht ~ drei Teilen.|Набір складається з трьох деталей.
+bestehen|auf|D|наполягати на|Ich bestehe ~ einer schriftlichen Bestätigung.|Я наполягаю на письмовому підтвердженні.
+sich beteiligen|an|D|долучатися до спільної справи|Ich beteilige mich ~ dem Schulprojekt.|Я долучаюся до шкільного проєкту.
+sich bewerben|bei|D|подаватися до роботодавця|Ich bewerbe mich ~ einem IT-Unternehmen.|Я подаюся до IT-компанії.
+sich bewerben|um|A|подавати заявку на посаду чи місце|Ich bewerbe mich ~ einen Ausbildungsplatz.|Я подаю заявку на місце професійного навчання.
+sich beziehen|auf|A|стосуватися, посилатися на|Ich beziehe mich ~ den Mietvertrag.|Я посилаюся на договір оренди.
+*bitten|um|A|просити про|Ich bitte ~ einen Rückruf.|Я прошу передзвонити.
+*danken|für|A|дякувати за|Ich danke dir ~ den Hinweis.|Я дякую тобі за підказку.
+*denken|an|A|думати про, пам’ятати про|Denk ~ deinen Reisepass.|Не забудь про свій паспорт.
+*diskutieren|über|A|дискутувати щодо|Wir diskutieren ~ den Vorschlag.|Ми дискутуємо щодо пропозиції.
+*einladen|zu|D|запрошувати на|Ich lade euch ~ einem Grillabend ein.|Я запрошую вас на вечір із барбекю.
+sich entscheiden|für|A|робити вибір на користь|Ich entscheide mich ~ den günstigeren Tarif.|Я обираю дешевший тариф.
+sich entschließen|zu|D|зважуватися на|Ich entschließe mich ~ einem Jobwechsel.|Я зважуюся змінити роботу.
+*sich entschuldigen|bei|D|вибачатися перед кимось|Ich entschuldige mich ~ meiner Kollegin.|Я вибачаюся перед колегою.
+*sich entschuldigen|für|A|вибачатися за щось|Ich entschuldige mich ~ die späte Antwort.|Я вибачаюся за пізню відповідь.
+#2
+*sich konzentrieren|auf|A|зосереджуватися на|Ich konzentriere mich ~ den Testlauf.|Я зосереджуюся на тестовому запуску.
+*sich kümmern|um|A|піклуватися про, подбати про|Ich kümmere mich ~ die Rücksendung.|Я подбаю про повернення товару.
+lachen|über|A|сміятися з|Wir lachen ~ den schlechten Witz.|Ми сміємося з невдалого жарту.
+leiden|an|D|страждати на захворювання|Er leidet ~ einer Allergie.|Він страждає на алергію.
+leiden|unter|D|потерпати від обставин|Wir leiden ~ dem Baulärm.|Ми потерпаємо від будівельного шуму.
+nachdenken|über|A|обмірковувати|Ich denke ~ den Umzug nach.|Я обмірковую переїзд.
+protestieren|gegen|A|протестувати проти|Die Eltern protestieren ~ den Beschluss.|Батьки протестують проти рішення.
+rechnen|mit|D|очікувати чогось, враховувати можливість|Wir rechnen ~ einer Verspätung.|Ми очікуємо затримки.
+reden|über|A|балакати на певну тему|Wir reden ~ die nächste Reise.|Ми балакаємо про наступну поїздку.
+reden|von|D|згадувати щось у розмові|Sie redet ständig ~ ihrem alten Team.|Вона постійно згадує свою стару команду.
+riechen|nach|D|пахнути чимось|Die Garage riecht ~ Benzin.|У гаражі пахне бензином.
+sagen|über|A|казати щось про когось або щось|Was sagt der Arzt ~ den Befund?|Що лікар каже про результати обстеження?
+sagen|zu|D|висловлювати реакцію на щось|Was sagst du ~ dem neuen Angebot?|Що скажеш щодо нової пропозиції?
+*schicken|an|A|надсилати адресатові|Ich schicke die Rechnung ~ deine Firma.|Я надсилаю рахунок твоїй компанії.
+schicken|zu|D|направляти до когось|Die Ärztin schickt mich ~ einem Orthopäden.|Лікарка направляє мене до ортопеда.
+schimpfen|über|A|лаяти щось, нарікати на|Er schimpft ~ den kaputten Aufzug.|Він нарікає на зламаний ліфт.
+schmecken|nach|D|мати смак чогось|Der Tee schmeckt ~ frischer Minze.|Чай має смак свіжої м’яти.
+*schreiben|an|A|писати комусь|Ich schreibe ~ meinen Vermieter.|Я пишу своєму орендодавцеві.
+sich schützen|vor|D|захищатися від|Wir schützen uns ~ dem Lärm.|Ми захищаємося від шуму.
+sein|für|A|бути за|Ich bin ~ einen späteren Start.|Я за пізніший початок.
+sein|gegen|A|бути проти|Ich bin ~ eine weitere Gebühr.|Я проти ще одного збору.
+sorgen|für|A|забезпечувати щось|Die App sorgt ~ mehr Übersicht.|Застосунок допомагає краще орієнтуватися.
+*sprechen|mit|D|розмовляти з кимось|Ich spreche ~ meinem neuen Kollegen.|Я розмовляю зі своїм новим колегою.
+*sprechen|über|A|говорити про щось|Wir sprechen ~ den Wartungsvertrag.|Ми говоримо про договір на обслуговування.
+sterben|an|D|помирати від хвороби чи травми|Er ist ~ den Folgen des Unfalls gestorben.|Він помер від наслідків аварії.
+streiten|mit|D|сваритися з кимось|Ich streite ungern ~ meinem Bruder.|Я не люблю сваритися зі своїм братом.
+streiten|über|A|сперечатися через щось|Sie streiten ~ die Nebenkosten.|Вони сперечаються через додаткові витрати.
+*teilnehmen|an|D|брати участь у заході|Ich nehme ~ einer Fortbildung teil.|Я беру участь у підвищенні кваліфікації.
+*telefonieren|mit|D|розмовляти телефоном з|Ich telefoniere ~ der Versicherung.|Я розмовляю телефоном зі страховою.
+*sich treffen|mit|D|зустрічатися з кимось|Ich treffe mich ~ meiner Teamleiterin.|Я зустрічаюся зі своєю керівницею команди.
+#3
+sich erholen|von|D|відновлюватися після|Ich erhole mich ~ der Operation.|Я відновлююся після операції.
+*sich erinnern|an|A|пам’ятати, згадувати|Ich erinnere mich ~ das erste Gespräch.|Я пам’ятаю першу розмову.
+erkennen|an|D|упізнавати за ознакою|Du erkennst mich ~ meiner gelben Jacke.|Ти впізнаєш мене за моєю жовтою курткою.
+sich erkundigen|nach|D|наводити довідки про|Ich erkundige mich ~ den Öffnungszeiten.|Я довідуюся про години роботи.
+erschrecken|über|A|лякатися через раптову подію|Ich bin ~ den lauten Knall erschrocken.|Я злякався гучного гуркоту.
+*erzählen|über|A|розповідати про певну тему|Sie erzählt viel ~ ihre neue Stelle.|Вона багато розповідає про нову посаду.
+*erzählen|von|D|ділитися розповіддю про щось|Ich erzähle dir ~ meinem ersten Arbeitstag.|Я розповім тобі про свій перший робочий день.
+*fragen|nach|D|запитувати про|Ich frage ~ einem freien Termin.|Я запитую, чи є вільний час для запису.
+*sich freuen|auf|A|з нетерпінням чекати на|Ich freue mich ~ den Urlaub.|Я з нетерпінням чекаю на відпустку.
+*sich freuen|über|A|радіти тому, що вже є або сталося|Ich freue mich ~ deine Zusage.|Я радію твоїй згоді.
+gehen|um|A|йтися про|In der E-Mail geht es ~ die Kaution.|У листі йдеться про заставу.
+gehören|zu|D|належати до|Der Keller gehört ~ meiner Wohnung.|Підвал належить до моєї квартири.
+*sich gewöhnen|an|A|звикати до|Ich gewöhne mich ~ den neuen Arbeitsweg.|Я звикаю до нового маршруту на роботу.
+glauben|an|A|вірити в|Ich glaube ~ den Erfolg des Projekts.|Я вірю в успіх проєкту.
+*gratulieren|zu|D|вітати з|Ich gratuliere dir ~ deiner Beförderung.|Вітаю тебе з підвищенням.
+halten|für|A|вважати когось або щось кимось чи чимось|Ich halte das ~ einen fairen Preis.|Я вважаю це справедливою ціною.
+halten|von|D|мати думку про|Was hältst du ~ dem neuen Tarif?|Що ти думаєш про новий тариф?
+sich handeln|um|A|бути чимось, ітися про ідентифікацію|Es handelt sich ~ einen Tippfehler.|Це друкарська помилка.
+handeln|von|D|мати щось за сюжет чи тему|Der Podcast handelt ~ dem Alltag in Berlin.|Подкаст присвячений повсякденному життю в Берліні.
+*helfen|bei|D|допомагати з|Hilfst du mir ~ meiner Steuererklärung?|Допоможеш мені з декларацією?
+hindern|an|D|перешкоджати комусь щось робити|Der Schmerz hindert mich ~ der Arbeit.|Біль заважає мені працювати.
+hoffen|auf|A|сподіватися на|Wir hoffen ~ eine schnelle Rückmeldung.|Ми сподіваємося на швидку відповідь.
+*hören|von|D|чути про щось або отримувати звістку від когось|Ich habe lange nichts ~ dir gehört.|Я давно не мав від тебе звісток.
+*sich informieren|über|A|дізнаватися інформацію про|Ich informiere mich ~ die Versicherungsbedingungen.|Я дізнаюся про умови страхування.
+*sich interessieren|für|A|цікавитися чимось|Ich interessiere mich ~ einen Sprachkurs.|Я цікавлюся мовним курсом.
+klagen|über|A|скаржитися на симптоми чи обставини|Sie klagt ~ starke Rückenschmerzen.|Вона скаржиться на сильний біль у спині.
+kämpfen|für|A|боротися за|Die Eltern kämpfen ~ einen sicheren Schulweg.|Батьки борються за безпечну дорогу до школи.
+kommen|zu|D|доходити до певної події|Auf der A3 kam es ~ einem Unfall.|На автобані A3 сталася аварія.
+#4
+sich bemühen|||старатися|Ich bemühe mich wirklich.|Я справді стараюся.
+sich beruhigen|||заспокоюватися|Ich muss mich erst beruhigen.|Мені спершу треба заспокоїтися.
+*sich beschäftigen|mit|D
+sich beteiligen|an|D
+sich bewegen|||рухатися|Ich bewege mich im Homeoffice zu wenig.|Я замало рухаюся, коли працюю вдома.
+sich entschuldigen|||вибачатися без уточнення адресата чи причини|Ich möchte mich entschuldigen.|Я хочу вибачитися.
+*sich erinnern|an|A
+sich fürchten|vor|D|боятися|Ich fürchte mich ~ dem Eingriff.|Я боюся операції.
+sich hinlegen|||прилягати|Ich lege mich nach der Arbeit kurz hin.|Після роботи я ненадовго прилягаю.
+sich informieren|über|A
+sich interessieren|für|A
+sich langweilen|||нудьгувати|Ich langweile mich im Wartezimmer.|Я нудьгую в приймальні.
+sich treffen|||зустрічатися без уточнення співрозмовника|Wir treffen uns morgen.|Ми зустрічаємося завтра.
+sich trennen|von|D|розлучатися з, відмовлятися від|Ich trenne mich ~ meinem alten Fahrrad.|Я розлучаюся зі своїм старим велосипедом.
+sich unterhalten|mit|D|вести бесіду з|Ich unterhalte mich ~ meinem Sitznachbarn.|Я розмовляю із сусідом по місцю.
+sich unterscheiden|von|D|відрізнятися від|Der neue Vertrag unterscheidet sich ~ meinem alten Vertrag.|Новий договір відрізняється від мого старого договору.
+sich verabreden|mit|D|домовлятися про зустріч із|Ich verabrede mich ~ meiner Nachbarin.|Я домовляюся про зустріч із сусідкою.
+sich verabschieden|von|D|прощатися з|Ich verabschiede mich ~ meinen Gästen.|Я прощаюся зі своїми гостями.
+sich verletzen|an|D|поранитися об щось|Ich habe mich ~ einer scharfen Kante verletzt.|Я поранився об гострий край.
+sich verstehen|mit|D|ладнати з|Ich verstehe mich gut ~ meinen Kollegen.|Я добре ладнаю зі своїми колегами.
+*sich vorbereiten|auf|A|готуватися до|Ich bereite mich ~ den TÜV-Termin vor.|Я готуюся до техогляду.
+sich etwas ansehen||d|переглядати щось|Ich sehe mir die Rechnung an.|Я переглядаю рахунок.
+sich etwas ausdenken||d|вигадувати щось|Ich denke mir ein neues Passwort aus.|Я вигадую новий пароль.
+sich etwas holen||d|сходити по щось для себе|Ich hole mir in der Pause einen Kaffee.|На перерві я сходжу по каву.
+sich etwas nehmen||d|брати собі щось|Ich nehme mir ein Stück Kuchen.|Я беру собі шматок пирога.
+sich etwas kaufen||d|купувати собі щось|Ich kaufe mir einen neuen Laptop.|Я купую собі новий ноутбук.
+sich etwas vorstellen||d|уявляти собі щось|Ich stelle mir einen Alltag ohne Auto vor.|Я уявляю собі повсякденне життя без машини.
+sich etwas waschen||d|мити собі частину тіла|Ich wasche mir vor dem Essen die Hände.|Я мию руки перед їжею.
+sich etwas merken||d|запам’ятовувати щось|Ich merke mir deine Durchwahl.|Я запам’ятовую твій внутрішній номер.
